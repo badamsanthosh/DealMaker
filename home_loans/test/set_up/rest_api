@@ -1,0 +1,34 @@
+[DEV]
+    ===> Create Home Loan
+    --- URL: http://127.0.0.1:8000/home_loans/loan/
+        Method: POST
+        Data:
+        {
+        "product_name": "Westpac Fixed Option 2 Years (Premier Advantage) - Investment (P&I)",
+        "brand_name": "Westpac",
+        "frequencies": ["Weekly", "Fortnightly", "Monthly"],
+        "is_attached": true,
+        "is_current": true,
+        "channel_path": "personal",
+        "owner_id": 1,
+        "brand_path": "wes",
+        "display_name": "Westpac Fixed Option",
+        "description": "P & I - Investment",
+        "rate_type": "fixed",
+        "min_amount": 10000,
+        "max_amount": 1000000,
+        "max_lvr": 95,
+        "rate": "4.3",
+        "has_cashback": false,
+        "has_postcode_discount": false,
+        "has_value_discounts": true,
+        "is_honeymoon": false,
+        "cashback": 1250,
+        "cashback_is_a_rate": false,
+        "cashback_legal": true,
+        "max_term": 30
+        }
+
+
+
+

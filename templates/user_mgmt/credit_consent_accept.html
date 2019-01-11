@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="{% static 'images/favicon.png' %}">
+    <title>DealMax - CreditConsent</title>
+</head>
+<body style="background:#F7F7F7">
+<br/><br/><br/><br/><br/><br/>
+    <input type="hidden" value="{{ update_pwd_str }}" id="api_url" />
+    <div class="container-fluid" style="text-align:center;">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="float: none; margin: 0 auto; ">
+                <img src="{% static '/images/dealmax.png' %}" style="width:250px; margin-top:10%" />
+                <br>
+                <p style="padding: 30px;">
+                    Thank you for providing credit consent authorisation. Our executive will mail your credit report shortly.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
