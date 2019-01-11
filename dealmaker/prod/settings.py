@@ -17,7 +17,7 @@ from datetime import timedelta
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-SECRET_KEY = os.environ.get('DB_HOST')
+SECRET_KEY = os.environ.get('SECRET_HOST')
 DEBUG = False
 
 ALLOWED_HOSTS = [
@@ -206,8 +206,8 @@ DPX_LOGGING_CONFIG = {
 # Email Config
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'noreply@dealmax.com.au'
-EMAIL_HOST_PASSWORD = 'usvzbryzkxrsnpky'
+EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'noreply@dealmax.com.au'
 
