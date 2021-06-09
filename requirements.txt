@@ -12,7 +12,7 @@ coreapi-cli==1.0.9
 coreschema==0.0.4
 crayons==0.1.2
 cryptography==2.2.2
-Django==2.2.13
+Django==2.2.22
 django-appconf==1.0.2
 django-bootstrap-form==3.4
 django-cors-headers==2.4.0
