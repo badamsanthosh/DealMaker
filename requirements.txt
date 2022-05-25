@@ -33,7 +33,7 @@ psycopg2-binary==2.7.4
 pyaml==17.12.1
 pycparser==2.18
 pycrypto==2.6.1
-PyJWT==1.6.4
+PyJWT==2.4.0
 pyOpenSSL==18.0.0
 python-dateutil==2.7.3
 pytz==2018.4
